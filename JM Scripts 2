@@ -63,7 +63,7 @@ end
 
 local function enterKey()
     local userInputKey = textBox.Text
-    local correctKey = "KEY_JMSCR1PTS8717"
+    local correctKey = "KEY_JMSCR1PTS8717, KEY_JMadmin306"
 
     if userInputKey == correctKey then
         local scriptURL = "https://raw.githubusercontent.com/jmTECHscripts/Jm-Scripts-V2.0/refs/heads/main/Jm%20Scripts%20V2"
