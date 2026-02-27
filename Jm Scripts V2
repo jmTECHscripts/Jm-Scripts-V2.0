@@ -1,0 +1,180 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/jensonhirst/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({Name = "JM Scripts⭐ V2.0"  , HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+local Tab = Window:MakeTab({
+	Name = "Main",
+	Icon = "rbxassetid://133679220772563",
+	PremiumOnly = false
+})
+local Section = Tab:AddSection({
+	Name = "Scripts"
+})
+Tab:AddButton({
+	Name = "Garden Horizons",
+	Callback = function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Garden-Horizons-Atherhub-Instant-Pickup-Auto-Plant-121270"))()
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "99 Nights in the forest",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/luareflection/public-novahub/refs/heads/main/forge/loader.luau"))()
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "Steal a brainrot",
+	Callback = function()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/6d08fbf253529a4fefa32ff404bd5448.lua"))()
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "Escape tsunami for brainrots",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/RZK9XdtH"))()
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "Blox fruits",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-GravityHub/BloxFruit/refs/heads/main/Main.lua"))()
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "Fish it",
+	Callback = function()
+loadstring(game:HttpGet("https://vorahub.xyz/loader"))()
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "The Forge",
+	Callback = function()
+OrionLib:MakeNotification({
+	Name = "The Forge",
+	Content = "This script has been taken down. Sorry for the inconvenience!",
+	Image = "rbxassetid://4483345998",
+	Time = 7
+})
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "Plants vs brainrots",
+	Callback = function()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/d6eded51e52af6e97e3ee10fd4843043.lua"))()
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "Brookhaven",
+	Callback = function()
+loadstring(game:HttpGet("https://soluna-script.vercel.app/brookhaven.lua",true))()
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "Murder Mystery 2",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xannci9/xanlibrary67/refs/heads/main/main.txt"))()
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "Survive LAVA for Brainrots",
+	Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/ArchiveControlRavage/Survive-LAVA-for-Brainrots-0d7z/main/Survive-LAVA-for-Brainrots.lua'))()
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "Knockout",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/QAvDbBKa"))()
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "Doors",
+	Callback = function()
+loadstring(game:HttpGet("https://paste-drop.com/raw/u6KbwWhskk"))()
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "Dusty trip",
+	Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Aoruen/Roblox-Stuff/refs/heads/main/Dusty%20Trip%20Gun%20Gui.lua'))()
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "RIVALS",
+	Callback = function()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/5946add9ab91f1e04cb005346a8b1968.lua"))()
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "Flee the facility",
+	Callback = function()
+loadstring(game:HttpGet("https://crimson-api.crimsonhub.workers.dev"))()
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "Prison life",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Void-killer1/Void-Script/refs/heads/main/prisonlife2.0.1.lua"))()
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "Forsaken",
+	Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/HkYDx9cT'))()
+      		print("button pressed")
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Admin",
+	Icon = "rbxassetid://12684119292",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Admin"
+})
+Tab:AddButton({
+	Name = "Infinite yeild",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "Nameless Admin",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source"))();
+      		print("button pressed")
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Misc",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Local Player"
+})
+Tab:AddLabel("Coming soon!")
+
+OrionLib:Init()
